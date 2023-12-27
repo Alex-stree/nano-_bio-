@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Jua';
+    src: url(../fonts/Jua-Regular.ttf);
+}
+@font-face {
+    font-family: 'Jura' ;
+    src: url(../fonts/Jura-Bold.ttf);
+    src: url(../fonts/Jura-Regular.ttf);
+}
+.wrapper{
+    min-width: 850px;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #292845;
+    gap: 40%;
+}
+.logo {
+    width: 406px;
+    height: 27px;
+    background-size: cover;
+    margin-top: 40px;
+    background-image: url(../img/logo.png);
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.nav-pinkt>a {
+    color: #fff;
+    font-family: 'Jura' ;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.zag-bl1 {
+    color: #000;
+    font-family: 'Jura';
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.content-bl-bl1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 3%;
+    gap: 5% ;
+}
+.comtemt-bl1 {
+    width: 60%;
+    font-family: 'Jua';
+    font-size: 30px;
+    font-weight: 400;
+}
+.content-img-bl1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    background-image: url(../img/image\ 1.png);
+}
+.bl2-color {
+    width: 100%;
+    background: rgba(41, 40, 69, 0.90);
+    padding-bottom: 3%;
+}
+.zag-bl2 {
+    color: #FFF;
+    font-family: 'Jura';
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 5%;
+    padding-top: 5px;
+}
+.content-bl2-text {
+    margin-left: 5%;
+    width: 60%;
+    margin-top: 20px;
+    color: #FFF;
+    font-family: 'Jua';
+    font-size: 30px;
+    font-weight: normal;
+}
+.content-bl2-text>b ,
+.content-text-2-bl2>b {
+    font-family: 'Jura';
+}
+.content-text-2-bl2 {
+    width: 60%;
+    text-align: right;
+    margin-left: 30%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: 'Jua';
+    font-size: 30px;
+    font-weight: normal;
+}
+.zad-avtor {
+    width: 300px;
+    height: 80px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    background: rgba(41, 40, 69, 0.90);
+    color: #FFF4F4;
+    font-family: 'Jura';
+    font-size: 60px;
+    font-weight: 700;
+}
+.couplet {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.coup {
+    display: grid;
+}
+.img-coup {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.one {
+    background-image: url(../img/image\ 2.png);
+}
+.two {
+    background-image: url(../img/image\ 3.png);
+}
+.text-coup {
+    font-family: 'Jura';
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+}
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #292845;
+}
+.ic-til {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin: auto;
+    background-image: url(../img/Group\ 3.png);
+}
