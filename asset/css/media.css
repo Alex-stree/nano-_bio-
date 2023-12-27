@@ -1,0 +1,28 @@
+@media (max-width:1500px) {
+    .nav-pinkt {
+        display: none;
+    }
+}
+@media (max-width:851px) {
+    .zag-bl1 {
+        font-size: 50px;
+        margin-left: 15%;
+    }
+    .content-bl-bl1 {
+        flex-wrap: wrap;
+    }
+    .zag-bl2 {
+        font-size: 40px;
+    }
+    .content-text-2-bl2,.content-bl2-text {
+        text-align: justify;
+        width: 85%;
+    }    
+    .content-text-2-bl2{
+        margin-left: 5%;
+    }
+    .couplet {
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+}
